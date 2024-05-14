@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Banner from './components/Banner'
 
 function Sample() {
   return (
-    <h1>This is a Tailwind Project</h1>
+    <>
+    <Navbar />
+      <Banner />
+    </>
   )
 }
 
