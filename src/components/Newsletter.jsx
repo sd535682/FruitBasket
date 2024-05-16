@@ -9,7 +9,7 @@ function Newsletter() {
         <h1 className="text-lg md:text-3xl font-bold text-gray-700">
           Subscribe to Newsletter
         </h1>
-        <h3 className="text-gray-500 text-xs md:text-lg font-medium">
+        <h3 className="text-gray-500 text-xs md:text-lg font-medium mt-2">
           Stay fresh and informed! Subscribe to our newsletter for juicy
           updates, exclusive offers, and fruit-filled inspiration.
         </h3>
@@ -21,8 +21,8 @@ function Newsletter() {
           alt="Blueberry"
         />
       </div>
-      <div>
-        <form class="mx-auto mt-10 flex max-w-md gap-x-4">
+      <div className="flex my-2">
+        <form class="flex">
           <label for="email-address" class="sr-only">
             Email address
           </label>
