@@ -21,15 +21,27 @@ function Items() {
         {fruit.map((item, index) => (
           <div
             key={index}
-            className="font-bold rounded-lg shadow-md overflow-hidden hover:scale-105">
+            className="bg-gray-500 font-bold rounded-lg shadow-lg overflow-hidden hover:scale-105 object-cover">
             <img
-              src={`https://picsum.photos/id/${Math.floor(
-                Math.random() * 10
-              )}/500`}
+              className="w-[500px] h-[300px] object-cover"
+              src={`https://source.unsplash.com/random/?${item.name}`}
               alt={item.name}
-              className="card-image"
             />
-            <div className="m-4">{item.name}</div>
+            <div className="mx-4 my-2 ">
+              <h1 className="text-2xl text-slate-200">{item.name}</h1>
+              <h3 className="text-md text-slate-300">
+                Calories : {item.nutritions.calories}
+              </h3>
+              <h3 className="text-md text-slate-300">
+                Fat : {item.nutritions.fat}
+              </h3>
+              <h3 className="text-md text-slate-300">
+                Sugar : {item.nutritions.sugar}
+              </h3>
+              <h3 className="text-md text-slate-300">
+                Protein : {item.nutritions.protein}
+              </h3>
+            </div>
           </div>
         ))}
       </div>
@@ -38,3 +50,4 @@ function Items() {
 }
 
 export default Items;
+//https://random.imagecdn.app/500/500
