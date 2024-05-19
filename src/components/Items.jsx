@@ -21,7 +21,7 @@ function Items() {
         {fruit.map((item, index) => (
           <div
             key={index}
-            className="bg-gray-500 font-bold rounded-lg shadow-lg overflow-hidden hover:scale-105 object-cover">
+            className="bg-gray-600 font-bold rounded-lg shadow-lg overflow-hidden hover:scale-105 object-cover">
             <img
               className="w-[500px] h-[300px] object-cover"
               src={`https://source.unsplash.com/random/?${item.name}`}
