@@ -1,7 +1,7 @@
 # FruitBasket
 
-This is an Ecommerce frontend design made using ReactJS + Tailwind CSS
-I am still working on this project and will add more features
+This is an Ecommerce frontend design made using ReactJS + Tailwind CSS  
+I am still working on this project and will add more features  
 Stay tuned
 
 Desktop View
